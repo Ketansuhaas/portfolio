@@ -19,7 +19,7 @@ c1.header("International Collegiate Programming Contest (ICPC) - 2020")
 c1.markdown('<p class="big-font"><i>Secured an All India Rank of 379 at the Asia Amritapuri Double-site Regional Contest. It is an international-level competitive programming contest between colleges.</i></p>', unsafe_allow_html=True)
 
 c3.header("Kishore Vaigyanik Protsahan Yojana (KVPY) Scholar - 2018")
-c3.markdown('<p class="big-font"><i>Cleared the KVPY exam and secured an All India Rank of 1237 in the SX Stream, which is for 12th-grade students. It is also the admission exam for the prestigious Indian Institute of Science and also fellowship.</i></p>', unsafe_allow_html=True)
+c3.markdown('<p class="big-font"><i>Cleared the KVPY exam and secured an All India Rank of 1237 in the SX Stream, which is for 12th-grade students. It is also the admission exam for the prestigious Indian Institute of Science and fellowship.</i></p>', unsafe_allow_html=True)
 
 c4.header("Indian National Physics Olympiad (INPhO) - 2018")
 c4.markdown('<p class="big-font"><i>Participated after clearing the National Standard Examination in Physics (NSEP) securing a place amongst the top 17 in Tamil Nadu State. INPhO has to be cleared for participating in the International Physics Olympiad (IPhO).</i></p>', unsafe_allow_html=True)
