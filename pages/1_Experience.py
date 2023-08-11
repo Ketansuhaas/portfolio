@@ -7,7 +7,7 @@ c1, c2 = st.container(), st.container()
 c1c1,c1c2 = c1.columns(2)
 c2c1,c2c2 = c2.columns(2)
 
-c1c2.image("Slice.png",width=400)
+c1c2.image("slice.png",width=400)
 c1c1.title("Slice")
 st.markdown("""
 <style>
