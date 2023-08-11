@@ -3,12 +3,14 @@ st.set_page_config(
     layout="wide",
     page_title="Education"
 )
+
+st.title("Education")
 c1, c2 = st.container(), st.container()
 c1c1,c1c2 = c1.columns(2)
 c2c1,c2c2 = c2.columns(2)
 
 c1c2.image("BU.png",width=180)
-c1c1.title("Boston University")
+c1c1.header("Boston University")
 st.markdown("""
 <style>
 .big-font {
@@ -22,5 +24,5 @@ c1c1.markdown('<p class="big-font"><i>Masters in Artificial Intelligence (2023 -
 
 
 c2c2.image("IITR.png", width=180)
-c2c1.title("Indian Institute of Technology (IIT) Roorkee")
-c2c1.markdown('<p class="big-font"><i>Bachelor of Technology in Electrical Engineering (2019 - 2023)</i></p>', unsafe_allow_html=True)
+c2c1.header("Indian Institute of Technology (IIT) Roorkee")
+c2c1.markdown('<p class="big-font"><i>Bachelor of Technology in Electrical Engineering (2019 - 2023)<br>CGPA : 8.645/10</i></p>', unsafe_allow_html=True)

@@ -13,6 +13,13 @@ Data structures, algorithms, and the synergy between graph algorithms and comput
 My journey into machine learning and data science began early, evolving into a profound interest in deep learning after a comprehensive course during my final year. The pinnacle of my undergraduate journey was a Bachelor's project in deep learning, focusing on the semantic segmentation of cardiac MRI images. This project illuminated the beauty and potential of deep learning, setting the stage for further exploration.
 Nurturing my deep learning fascination, I dived into Natural Language Processing and pursued independent projects. Currently, I also started exploring the exciting field of Generative AI.\n
 Research has always been my thing since I was a kid. Always driven by intuition. Resource constraints have often inhibited my progress yet I eagerly anticipate collaborative research that contributes substantively to the field. ''')
+
+c1.write('''[LinkedIn](https://www.linkedin.com/in/ketan-suhaas-saichandran-050638245/) | [GitHub](https://github.com/Ketansuhaas)''')
+
+
+
 c2.image("pic.jpeg",width= 400)
+
 st.sidebar.success("Select a page above")
+
 
