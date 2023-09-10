@@ -7,6 +7,7 @@ st.title("Projects")
 c1, c2 ,c3 ,c4, c5 = st.container(), st.container() , st.container(), st.container(), st.container()
 #c1c2.image("Slice.png",width=400)
 c1.header("Cardiac Image Segmentation using Deep Learning")
+c1.image("cis.jpg")
 st.markdown("""
 <style>
 .big-font {
@@ -14,27 +15,53 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
-c1.markdown('<p class="big-font"><i>(August 2022 - May 2023)</i> <ul><li>Implemented some U-Net-based attention models in Tensorflow for the semantic segmentation of Cardiac MRI Images.</li><li>Achieved a significantly good dice coefficient on the M&Ms Dataset.</li><li>Designed a web application using the Streamlit framework in Python.</li></p>', unsafe_allow_html=True)
+c1.markdown('<p class="big-font"><i>(August 2022 - May 2023)</i> <ul>\
+            <li>Implemented advanced U-Net-based attention models in TensorFlow for the semantic segmentation of 3D Cardiac short-axis MRI Images.</li>\
+            <li>Conducted a thorough comparison of model results and recorded performance benchmarks.</li>\
+            <li>Achieved a significantly high dice coefficient on the M&Ms Dataset.</li>\
+            <li>Designed an interactive web application using Streamlit framework in Python.</li></p>', unsafe_allow_html=True)
 c1.write("GitHub repository is [here.](https://github.com/Ketansuhaas/cardiac-image-segmentation)")
 c1.write("Project report is [here.](https://github.com/Ketansuhaas/cardiac-image-segmentation/blob/main/Final%20BTP%20report%20for%20masters.pdf)")
 
 
 c2.header("arXiv Research Article Recommender")
-c2.markdown('<p class="big-font"><i>(August 2023 - Present)</i> <ul><li> Utilized BERT embeddings for encoding the titles of a portion of the arXiv dataset. </li><li>Using abstracts instead of titles would produce better results, but will require a higher computational power. </li><li>Trained a K-Means model to recommend related research articles.</li><li>Designed and deployed an elegant web application in Streamlit.</li></p>', unsafe_allow_html=True)
+c2.image("ar.jpg")
+c2.markdown('<p class="big-font"><i>(August 2023 - Present)</i> <ul>\
+            <li>Leveraged BERT embeddings to encode titles from a subset of the arXiv dataset.</li>\
+            <li>Currently working on utilizing abstracts for improved results, albeit with higher computational demands.</li>\
+            <li>Developed a K-Means model for recommending related research articles.</li><li>Designed and deployed an elegant web application using Streamlit.</li></p>', unsafe_allow_html=True)
 c2.write("GitHub repository is [here.](https://github.com/Ketansuhaas/arXiv-article-recommender)")
 c2.write("Access the web-app [here.](https://arxiv-article-recommender-8uq7kkdrefhdsf8m5xkge7.streamlit.app/)")
 
 
 c3.header("Next Word Predictor")
-c3.markdown('<p class="big-font"><i>(May 2023 - August 2023)</i> <ul><li>Implemented a stacked LSTM model in Keras for predicting the next possible words of a sentence.</li><li>Designed an elegant multipage web application using Streamlit that also allows training the model on a context text before prediction.</li><li>Displays the probability of all the words that could appear next.</li></p>', unsafe_allow_html=True)
+c31,c32 = c3.columns(2)
+c31.image("nw1.jpg")
+c32.image("nw2.jpg")
+c3.markdown('<p class="big-font"><i>(May 2023 - August 2023)</i> <ul>\
+            <li>Implemented a stacked LSTM model in Keras for predicting the next possible words of a sentence.</li>\
+            <li>Designed an elegant multipage web application using Streamlit that also allows training the model on a context text before prediction.</li>\
+            <li>Displays the probability of all the words that could appear next.</li></p>', unsafe_allow_html=True)
 c3.write("GitHub repository is [here.](https://github.com/Ketansuhaas/next-word-predictor)")
 
 
 c4.header("Hand-gesture-controlled mouse using Computer Vision")
-c4.markdown('<p class="big-font"><i>(October 2022 - November 2022)</i> <ul><li>Created an end-to-end desktop AI mouse app using OpenCV, utilizing the media pipe library to detect hands. </li><li>Designed algorithms for detecting physical hand gestures for moving and clicking the mouse pointer of the PC.</li></p>', unsafe_allow_html=True)
+c4.image("Aimouse.jpg")
+c4.markdown('<p class="big-font"><i>(October 2022 - November 2022)</i> <ul>\
+            <li>Developed an end-to-end desktop AI mouse application using the Pyinstaller library.</li>\
+            <li>Leveraged the MediaPipe library for precise finger coordinate detection and devised algorithms for recognizing physical hand gestures.</li>\
+            <li>Incorporated the AutoPy library for intuitive mouse pointer control.</li></p>', unsafe_allow_html=True)
 c4.write("GitHub repository is [here.](https://github.com/Ketansuhaas/AIMouse)")
 
 
 c5.header("Solving Economic Load Dispatch Problem On Quantum Computers   ")
-c5.markdown('<p class="big-font"><i>(January 2022 - March 2022)</i> <ul><li>Economic Load Dispatch involves the optimal allocation of generation units across all generators, satisfying the power, voltage, transmission line, and network security constraints.</li><li>Used the LeapCQM Quantum Annealing-based hybrid solver on the D-Wave Leap IDE in Python for computation.</li><li>Successfully reduced the time of computation significantly (in the range of 10^3 sec) for solving the economic load dispatch problem, proving the efficacy of quantum computers over classical ones.</li></p>', unsafe_allow_html=True)
+c5.markdown('<p class="big-font"><i>(January 2022 - March 2022)</i> <ul>\
+            <li>Economic Load Dispatch involves the optimal allocation of generation \
+            units across all generators, satisfying the power, voltage, transmission line,\
+             and network security constraints.</li>\
+            <li>Used the LeapCQM Quantum Annealing-based hybrid \
+            solver on the D-Wave Leap IDE in Python for computation.</li>\
+            <li>Successfully reduced the time of computation significantly \
+            (in the range of 10^3 sec) for solving the economic load dispatch problem, \
+            proving the efficacy of quantum computers over classical ones.</li></p>', unsafe_allow_html=True)
 c5.write("Project report is [here.](https://drive.google.com/file/d/1d3f8KkhOTx2XdEwzirhHxv2sQE_z9cuh/view?usp=sharing)")
