@@ -21,7 +21,7 @@ c1.markdown('<p class="big-font"><i>(August 2022 - May 2023)</i> <ul>\
             <li>Achieved a significantly high dice coefficient on the M&Ms Dataset.</li>\
             <li>Designed an interactive web application using Streamlit framework in Python.</li></p>', unsafe_allow_html=True)
 c1.write("GitHub repository is [here.](https://github.com/Ketansuhaas/cardiac-image-segmentation)")
-c1.write("Project report is [here.](https://github.com/Ketansuhaas/cardiac-image-segmentation/blob/main/Final%20BTP%20report%20for%20masters.pdf)")
+c1.write("Pre-print is [here.](https://github.com/Ketansuhaas/cardiac-image-segmentation/blob/main/Final%20BTP%20report%20for%20masters.pdf)")
 
 
 c2.header("arXiv Research Article Recommender")
