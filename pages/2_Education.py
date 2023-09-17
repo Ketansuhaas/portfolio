@@ -18,11 +18,11 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
-c1c1.markdown('<p class="big-font"><i>Masters in Artificial Intelligence (2023 - Present)</i></p>', unsafe_allow_html=True)
+c1c1.markdown('<p class="big-font">Masters in Artificial Intelligence (2023 - Present)</p>', unsafe_allow_html=True)
 
 
 
 
 c2c2.image("IITR.png", width=180)
 c2c1.header("Indian Institute of Technology (IIT) Roorkee")
-c2c1.markdown('<p class="big-font"><i>Bachelor of Technology in Electrical Engineering (2019 - 2023)<br>CGPA : 8.645/10</i></p>', unsafe_allow_html=True)
+c2c1.markdown('<p class="big-font">Bachelor of Technology in Electrical Engineering (2019 - 2023)<br>CGPA : 8.645/10</p>', unsafe_allow_html=True)

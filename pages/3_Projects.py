@@ -6,7 +6,7 @@ st.set_page_config(
 st.title("Projects")
 c1, c2 ,c3 ,c4, c5 = st.container(), st.container() , st.container(), st.container(), st.container()
 #c1c2.image("Slice.png",width=400)
-c1.header("Cardiac Image Segmentation using Deep Learning")
+c1.header("Cardiac MRI Image Segmentation using Deep Learning")
 c1.image("cis.jpg")
 st.markdown("""
 <style>

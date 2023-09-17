@@ -24,5 +24,9 @@ c1c1.markdown('<p class="big-font"><i>Software Development Intern (May 2022 - Ju
 
 c2c2.image("IITR.png", width=180)
 c2c1.header("Machine Learning Lab, Electrical Engineering Dept, IITR")
-c2c1.markdown('<p class="big-font"><i>Research Apprentice (August 2022 - May 2023)</i> <ul><li>Collaborated closely with a Ph.D. student to delve into semantic segmentation for biomedical images.<li>Extensively analyzed and implemented the nn-U-Net architecture, meticulously validating its performance benchmarks through rigorous training.</li></p>', unsafe_allow_html=True)
+c2c1.markdown('<p class="big-font"><i>Research Apprentice (August 2022 - May 2023)</i> <ul><li>Collaborated closely with a Ph.D. student to delve into semantic segmentation for biomedical images.\
+              <li>Extensively analyzed and implemented the nn-U-Net architecture, meticulously validating its performance benchmarks through \
+              rigorous training.</li>\
+              <li>Assisted in designing and testing a new \
+              segmentation model, Attention-guided residual W-Net.</li></p>', unsafe_allow_html=True)
 
