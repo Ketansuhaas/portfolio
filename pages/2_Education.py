@@ -22,7 +22,7 @@ c2c1,c2c2 = c2.columns(2)
 c1c2.image("BU.png",width=180)
 c1c1.markdown('<p class="head-font"><b>Boston University</b></p>', unsafe_allow_html=True)
 
-c1c1.markdown('<p class="big-font">Masters in Artificial Intelligence (2023 - Present)</p>', unsafe_allow_html=True)
+c1c1.markdown('<p class="big-font">Master of Science in Artificial Intelligence (2023 - Present)</p>', unsafe_allow_html=True)
 
 
 
